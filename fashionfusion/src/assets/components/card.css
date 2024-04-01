@@ -1,0 +1,168 @@
+.card{
+    background-color: rgb(250, 247, 243);
+    height: 400px;
+    width: 300px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+  
+    overflow: hidden; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding-bottom: 20px;
+
+
+}
+.row1{
+    height:  309.66px;
+   
+    background-color: beige;
+}
+.row1 img{
+    height: 309.66px;
+
+    width: 300px;
+}
+.row2{
+    height: 40px;
+    padding: 10px;
+    padding-bottom: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+    padding: 20px;
+}
+
+
+h5 {
+    margin-bottom: 5px; 
+    font-size: larger; 
+    font-family:'AmstelvarAlpha';
+    font-style: italic;
+    margin-top: 60px;
+    margin-bottom: 0px;
+}
+
+p {
+    font-size: 16px; 
+    color: #555; 
+    margin-bottom: 0px;
+}
+.row2 {
+    padding: 10px;
+    padding-bottom: 20px; 
+    display: flex;
+    flex-direction: column;
+    align-items: left; 
+    justify-content: center; 
+    padding-bottom: 60px;
+}
+.buy-button {
+    
+    background-color: #e7eef5;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-image: linear-gradient(to right, #EB3349 0%, #F45C43  51%, #EB3349  100%);
+    margin: 10px;
+    padding: 15px 45px;
+    margin-top: 5px;
+    padding: 10px 8px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: rgb(20, 9, 9);            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 5px;
+    display: block;
+    
+  }
+  
+  .buy-button:hover {
+    background-color: #0056b3;
+    background-position: right center; 
+    color: #fff;
+    text-decoration: none;
+  }
+
+         
+  
+ 
+  .card {
+    background-color: rgb(250, 247, 243);
+    height: 400px;
+    width: 300px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding-bottom: 20px;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .row1 {
+    height: 309.66px;
+    background-color: beige;
+  }
+  
+  .row1 img {
+    height: 309.66px;
+    width: 300px;
+  }
+  
+  .row2 {
+    padding: 10px;
+    padding-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    padding-bottom: 60px;
+  }
+  
+  h5 {
+    margin-bottom: 5px;
+    font-size: larger;
+    font-family: 'AmstelvarAlpha';
+    font-style: italic;
+    margin-top: 60px;
+    margin-bottom: 0px;
+  }
+  
+  p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 0px;
+  }
+  
+  .buy-button {
+    background-color: #e7eef5;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-image: linear-gradient(to right, #EB3349 0%, #F45C43 51%, #EB3349 100%);
+    margin: 10px;
+    padding: 10px 8px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.3s; /* Transition added for the button */
+    box-shadow: 0 0 20px #eee;
+    border-radius: 5px;
+    display: block;
+  }
+  
+  .buy-button:hover {
+    background-color: #0056b3;
+    color: #fff;
+    text-decoration: none;
+  }
+  
